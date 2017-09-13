@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>BlaBlaCurri</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<script src="https://www.gstatic.com/firebasejs/4.3.1/firebase.js"></script>
+		<script>
+		  // Initialize Firebase
+		  var config = {
+		    apiKey: "AIzaSyBGtM2fd55F0zhoiX6zxH7R_8i8roslFM8",
+		    authDomain: "gotowork-72374.firebaseapp.com",
+		    databaseURL: "https://gotowork-72374.firebaseio.com",
+		    projectId: "gotowork-72374",
+		    storageBucket: "",
+		    messagingSenderId: "936191742088"
+		  };
+		  firebase.initializeApp(config);
+		</script>
+</head>
+<body id="homeContainer">
+	<header>
+		<div class="container-fluid cabecero">
+			<img class="logoCabecero" src="images/GoToWorkLogo.png" alt="logo">
+		</div>
+	</header>
+
+	<div class="container-fluid mainAsk">
+		<h1 id="ask">¿Dónde está tu trabajo?</h1>
+		<input id="zona" type="text" placeholder="P.I./Zona/Dirección">
+		<input id="ciudad" type="text" placeholder="Ciudad">
+		<button id="buttonAsk">Buscar</button>
+	</div>
+	
+
+
+
+
+	<!-- jQuery first, then Tether, then Bootstrap JS. -->
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+
+    <script type="text/javascript" src="./js/gotowork.js"></script>
+</body>
+</html>

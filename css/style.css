@@ -1,0 +1,204 @@
+/* Css de index.html */
+
+.cabecero {
+	height: 60px;
+	background-color: white;
+}
+
+.logoCabecero {
+    width: 100px;
+    margin-top: -10px;
+    margin-left: 35px;
+    
+}
+
+#homeContainer {
+	background: url("../images/fondo.jpg") no-repeat center center  /* repeat-x rgba(255, 255, 255, 0.5) */;
+	background-size: cover;
+	position: relative;
+	background-attachment: fixed;
+	overflow-x: hidden;
+}
+
+.mainAsk {
+	height: 300px;
+	width: 700px; 
+	background-color: white;
+	opacity: 0.9;
+	/* position: absolute; */
+	margin-top: 150px;
+	   /*  margin-left: 320px; */ 
+    border-radius: 15px;
+}
+
+#ask {
+	font-size: 30px;
+    padding-top: 25px;
+    padding-left: 20px;
+}
+
+#zona {
+	width: 280px;
+    height: 35px;
+    border-radius: 10px;
+    margin-top: 55px;
+    margin-right: 20px;
+    margin-left: 33px;
+    background-color: lightyellow;
+    border-style: groove;
+}
+
+#ciudad {
+	width: 280px;
+    height: 35px;
+    border-radius: 10px;
+    margin-top: 50px;
+    background-color: lightyellow;
+        border-style: groove;
+}
+
+#buttonAsk {
+	width: 150px;
+    float: right;
+    margin-top: 80px;
+    margin-right: 50px;
+    border-radius: 10px;
+    background-color: skyblue;
+    border-style: groove;
+}
+
+
+/* Empieza el css de Inicio.html */
+
+.carousel-inicio {
+    width: 100%;
+    height: 400px;
+}
+
+.slide-img {
+    width: 100%;
+    height: 400px; 
+} 
+
+.presentation {
+    /* background-color: blue; */
+    height: 200px;
+}
+
+.description {
+    /* background-color: pink; */
+}
+
+.registrate {
+    /* background-color: red; */
+}
+
+.descriptionText {
+    font-size: 22px;
+    font-family: arial;
+    padding: 30px;
+    margin: 30px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.exclamation {
+    font-size: 32px;
+    font-family: arial;
+    padding: 30px;
+    margin: 30px;
+    text-align: center;
+}
+
+.chat-img {
+    width: 360px;
+    height: 475px;
+    margin-top: 45px;
+    margin-left: 25px;
+}
+
+.bodyAzul {
+    background-color: #F1FEFD;
+}
+
+.logoFondo {
+    position: absolute;
+    opacity: 0.3;
+    width: 500px;
+    margin-top: 105px;
+    margin-left: -60px;
+}
+
+.GoToWorkTitulo {
+    margin-top: 25px;
+    margin-left: 36px;
+}
+
+
+/* ss resultados.html */
+
+
+.resultados {
+    margin: 0 auto;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.card-img-top-driver {
+    width: 180px;
+    height: 170px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.destino {
+    height: 50px;
+    background-color: #BAC1C1;
+}
+
+.caracteristicas {
+    text-align: center;
+}
+
+.list-caracteristicas {
+    text-align: center;
+}
+
+#work {
+    width: 280px;
+    height: 35px;
+    border-radius: 10px;
+    /* margin-left: 190px; */
+    margin-top: 7px;
+    background-color: lightyellow;
+    border-style: groove;
+}
+
+#hora-salida {
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    margin-top: 7px;
+    background-color: lightyellow;
+    border-style: groove;
+}
+
+.from {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.hour {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.info {
+    width: 150px;
+    height:200px;
+    background-color: #BAC1C1;
+    margin-top: 25px;
+}

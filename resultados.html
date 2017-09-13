@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>BlaBlaCurri</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+
+
+	<script src="https://www.gstatic.com/firebasejs/4.3.1/firebase.js"></script>
+		<script>
+		  // Initialize Firebase
+		  var config = {
+		    apiKey: "AIzaSyBGtM2fd55F0zhoiX6zxH7R_8i8roslFM8",
+		    authDomain: "gotowork-72374.firebaseapp.com",
+		    databaseURL: "https://gotowork-72374.firebaseio.com",
+		    projectId: "gotowork-72374",
+		    storageBucket: "",
+		    messagingSenderId: "936191742088"
+		  };
+		  firebase.initializeApp(config);
+		</script>
+
+</head>
+<body class="bodyAzul">
+	<header>
+		<div class="container-fluid cabecero">
+			<img class="logoCabecero" src="images/GoToWorkLogo.png" alt="logo">
+		</div>
+		
+	</header>
+	
+	<div class="container destino">
+		<div class="row">
+			<div class="col from">
+				¿A dónde vas?:
+			</div>
+			<div class="col">
+				<input id="work" type="text" placeholder="P.I./Zona/Dirección">
+			</div>
+			<button id="buscaViaje">Buscar viaje</button>
+		</div> 
+	</div>
+
+
+
+	
+
+	<div class="container" id="panel-resultados">
+		
+		<div class="row">
+		
+		<!-- <div class="col-3 info">
+			
+		</div> -->
+
+		<!-- card de los resultados -->
+	<!-- <div class="col-12">
+		<div class="card resultados" style="width: 20rem;">
+			<img class="card-img-top-driver" src="images/cara-conductor.jpg" alt="Conductor">
+	  		<div class="card-body">
+	    	<h4 class="card-title">Nombre y Apellidos</h4>
+	    		<p class="card-text">Breve descripción en la que diga la edad que tiene y a qué se dedica.</p>
+	  		</div>
+	  		
+	  		<ul class="list-group list-caracteristicas">
+	    		<li class="list-group-item caracteristicas">Modelo de coche</li>
+	    		<li class="list-group-item">Hora de salida</li>
+	    		<li class="list-group-item">Salida y destino</li>
+	  		</ul>
+	  
+	  		<div class="card-body">
+	    		<a href="#" class="card-link">Contactar</a>
+	    		<a href="#" class="card-link">Another link</a>
+	  		</div>
+		</div> -->
+
+
+		<!-- fin card de los resultados -->
+
+		
+		</div>
+	</div>
+
+
+	<!-- jQuery first, then Tether, then Bootstrap JS. -->
+
+   <!-- <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script> -->
+
+
+    <script type="text/javascript" src="./js/gotowork.js"></script>
+</body>
+</html>
